@@ -18,8 +18,8 @@ export default function Header() {
             <li className='hover:underline'><Link href={"/"}>About</Link></li>
         </ul>
         <div className='flex flex-row gap-[16px]'>
-        <button className='rounded-[5px] p-2 text-[#96BB7C] font-bold text-sm'>Login</button>
-        <button className='bg-[#96BB7C] rounded-[5px] p-2 text-white font-bold text-sm'>JOIN US</button>
+        <button className='rounded-[5px] p-2 text-[#96BB7C] font-bold text-sm hover:text-[#a4cb88]'>Login</button>
+        <button className='bg-[#96BB7C] hover:bg-[#a4cb88]  rounded-[5px] p-2 text-white font-bold text-sm'>JOIN US</button>
         </div>
         <Sheet>
           <SheetTrigger className='sm:hidden'><Menu/></SheetTrigger>

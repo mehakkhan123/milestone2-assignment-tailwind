@@ -5,16 +5,16 @@ const montserrat = Montserrat({subsets:["latin"]})
 
 export default function Hero() {
   return (
-    <div className={`${montserrat.className} w-full flex flex-row justify-center items-center py-4 2xl:h-[682px] bg-[#fff2f3]`}>
-        <div className='flex flex-col 2xl:flex-row 2xl:items-center 2xl:justify-center'>
+    <div className={`${montserrat.className} w-full flex flex-row justify-center items-center 2xl:h-[682px] bg-[#fff2f3] box-border`}>
+        <div className='flex flex-col items-center lg:flex-row lg:justify-center'>
             {/* left */}
-            <div className='flex flex-col items-center 2xl:flex-col 2xl:w-[573px] 2xl:h-[386px] 2xl:gap-[30px] 2xl:items-start'>
-                <h5 className='text-[#96BB7C] font-bold 2xl:text-base 2xl:leading-6 2xl:tracking-[0.1px]'>Welcome</h5>
-                <h1 className='2xl:text-[58px] 2xl:font-bold 2xl:w-[542px] 2xl:h-[160px] 2xl:leading-[80px] 2xl:tracking-[0.2px]'>Best Learning Opportunities</h1>
-                <h4 className='2xl:w-[338px] 2xl:h-[60px] 2xl:text-[20px] 2xl:font-normal 2xl:leading-[30px] 2xl:tracking-[0.2px] text-[#737373]'>Our goal is to make online education work for everyone</h4>
-                <div className='flex 2xl:w-[318px] 2xl:h-[52px] 2xl:flex-row 2xl:gap-[10px]'>
-        <button className='2xl:w-[135px] 2xl:h-[52px] bg-[#96BB7C] 2xl:rounded-[5px] 2xl:py-[15px] 2xl:px-[40px] text-white 2xl:font-bold 2xl:text-sm 2xl:tracking-[0.2px] text-center'>Join Us</button>
-        <button className='2xl:w-[173px] 2xl:h-[52px] bg-transparent border border-[#96BB7C] 2xl:rounded-[5px] 2xl:py-[15px] 2xl:px-[40px] text-[#96BB7C] 2xl:font-bold 2xl:text-sm 2xl:tracking-[0.2px] text-center'>Learn More</button>
+            <div className='flex flex-col items-center text-center py-4 px-4   gap-[30px] 2xl:flex-col sm:w-[573px] 2xl:h-[386px] lg:items-start lg:text-left'>
+                <h5 className='text-[#96BB7C] font-bold text-base leading-6 tracking-[0.1px]'>Welcome</h5>
+                <h1 className='text-3xl leading-10 md:text-[58px] font-bold 2xl:w-[542px] 2xl:h-[160px] md:leading-[80px] tracking-[0.2px]'>Best Learning Opportunities</h1>
+                <h4 className='leading-6 2xl:w-[338px] 2xl:h-[60px] text-[20px] font-normal 2xl:leading-[30px] 2xl:tracking-[0.2px] text-[#737373]'>Our goal is to make online education work for everyone</h4>
+                <div className='flex sm:w-[318px] h-[52px] flex-row gap-[10px] justify-center'>
+        <button className='w-[135px] h-[52px] bg-[#96BB7C] hover:bg-[#a4cb88] rounded-[5px] py-[15px] px-[10px] 2xl:px-[40px] text-white font-bold text-sm tracking-[0.2px] text-center'>Join Us</button>
+        <button className='w-[173px] h-[52px] bg-transparent border border-[#96BB7C] rounded-[5px] py-[15px] px-[10px] 2xl:px-[40px] text-[#96BB7C] font-bold text-sm tracking-[0.2px] text-center hover:text-[#a4cb88]'>Learn More</button>
         </div>
             </div>
             {/* right */}
