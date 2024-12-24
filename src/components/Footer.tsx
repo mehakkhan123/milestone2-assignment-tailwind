@@ -37,7 +37,7 @@ export default function Footer() {
 
         <div className='flex flex-col gap-[10px]'>
           <h5 className='text-[#252B42] font-bold text-base leading-6 tracking-[0.1px]'>Resources</h5>
-          <Link href={""}><h5 className='font-bold text-sm leading-6 tracking-[0.2px] text-[#737373]'>IOS & Android</h5></Link>
+          <Link href={""}><h5 className='font-bold text-sm leading-6 tracking-[0.2px] text-[#737373]'>IOS  Android</h5></Link>
           <Link href={""}><h5 className='font-bold text-sm leading-6 tracking-[0.2px] text-[#737373]'>Watch a Demo</h5></Link>
           <Link href={""}><h5 className='font-bold text-sm leading-6 tracking-[0.2px] text-[#737373]'>Customers</h5></Link>
           <Link href={""}><h5 className='font-bold text-sm leading-6 tracking-[0.2px] text-[#737373]'>API</h5></Link>
