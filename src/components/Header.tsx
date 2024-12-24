@@ -5,7 +5,6 @@ import { Sheet, SheetTrigger, SheetContent } from './ui/sheet'
 import { Montserrat } from 'next/font/google'
 import { Caveat } from 'next/font/google'
 const montserrat = Montserrat({subsets:["latin"]})
-const caveat = Caveat({subsets:["latin"]})
 
 
 
