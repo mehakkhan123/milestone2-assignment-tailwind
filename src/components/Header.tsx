@@ -3,7 +3,6 @@ import Link from 'next/link'
 import { Menu} from 'lucide-react'
 import { Sheet, SheetTrigger, SheetContent } from './ui/sheet'
 import { Montserrat } from 'next/font/google'
-import { Caveat } from 'next/font/google'
 const montserrat = Montserrat({subsets:["latin"]})
 
 
