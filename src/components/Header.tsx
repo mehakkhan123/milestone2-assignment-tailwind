@@ -27,8 +27,8 @@ export default function Header() {
             
           <ul className='font-bold text-[#96BB7C]'>
             <li className='border-b border-black pt-5 uppercase text-center'><Link href={"/"}>Home</Link></li>
-            <li className='border-b border-black pt-5 uppercase text-center'><Link href={"/"}>Courses</Link></li>
-            <li className='border-b border-black pt-5 uppercase text-center'><Link href={"/"}>About</Link></li>
+            <li className='border-b border-black pt-5 uppercase text-center'><Link href={"/courses"}>Courses</Link></li>
+            <li className='border-b border-black pt-5 uppercase text-center'><Link href={"/about"}>About</Link></li>
         </ul>
           </SheetContent>
         </Sheet>
