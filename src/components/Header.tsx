@@ -14,8 +14,8 @@ export default function Header() {
         <h1 className='font-bold text-sm sm:text-xl xl:text-2xl text-[#252B42]'>Brandname</h1>
         <ul className='hidden md:flex md:flex-row md:gap-8 md:text-base lg:gap-24 xl:gap-28 2xl:gap-[21px]'>
             <li className='hover:underline'><Link href={"/"}>Home</Link></li>
-            <li className='hover:underline'><Link href={"/"}>Courses</Link></li>
-            <li className='hover:underline'><Link href={"/"}>About</Link></li>
+            <li className='hover:underline'><Link href={"/courses"}>Courses</Link></li>
+            <li className='hover:underline'><Link href={"/about"}>About</Link></li>
         </ul>
         <div className='flex flex-row h-[45px] gap-2  2xl:w-[300px] sm:h-[52px] sm:gap-5'>
         <button className='rounded-[5px] p-2 text-[#96BB7C] font-bold text-sm hover:text-[#a4cb88] h-[52px]'>Login</button>
