@@ -9,7 +9,7 @@ const montserrat = Montserrat({subsets:["latin"]})
 
 export default function Footer() {
   return (
-    <footer className={`w-full h-[346px] flex flex-col items-center ${montserrat.className}`}>
+    <footer className={`w-full h-[346px] flex flex-col items-center  ${montserrat.className}`}>
       <div className='h-[980px] xl:h-[272px] w-[300px] md:w-[700px] lg:w-[900px] xl:w-[1050px]  flex flex-col md:flex-row py-[50px]  gap-[60px] justify-center items-center text-center md:text-left'>
         <div className='flex flex-col gap-[10px]'>
         <hr className='sm:hidden' />
@@ -59,9 +59,9 @@ export default function Footer() {
         <div className='w-[1050px] h-[100px] py-2 px-2 md:py-0 md:px-2 md:h-[74px] flex flex-col justify-center gap-3 md:gap-0 md:flex-row md:justify-between items-center'>
           <h5 className='text-[#737373] text-center md:text-left  font-bold text-sm leading-6 tracking-[0.2px]'>Made With Love By Mehak Khan All Right Reserved</h5>
           <div className='flex text-[#96BB7C] gap-[20px] text-2xl'>
-          <FaFacebook />
-          <FaInstagram />
-          <FaTwitter />
+          <Link href={"https://www.facebook.com"} target='_blank'><FaFacebook /></Link>
+          <Link href={"https://www.instagram.com"} target='_blank'><FaInstagram /></Link>
+          <Link href={"https://www.twitter.com"} target='_blank'><FaTwitter /></Link>
           </div>
         </div>
 
